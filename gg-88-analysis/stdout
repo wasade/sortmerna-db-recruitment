@@ -1,0 +1,151 @@
+TRIM LENGTH 100
+Total queries run: 103730
+Total not hitting: 39
+Fraction not hitting: 0.0004
+
+Subsequent summaries based off of only those which recruit.
+Category: %id
+count    103691.000000
+mean         98.369905
+std           3.866434
+min          73.500000
+25%         100.000000
+50%         100.000000
+75%         100.000000
+max         100.000000
+Name: %id, dtype: float64
+
+Category: e-value
+count    1.036910e+05
+mean     7.321656e-05
+std      6.476664e-03
+min      1.640000e-40
+25%      1.690000e-40
+50%      1.850000e-40
+75%      1.930000e-40
+max      9.910000e-01
+Name: e-value, dtype: float64
+
+Category: bit-score
+count    103691.000000
+mean        166.608471
+std          19.744588
+min          43.000000
+25%         175.000000
+50%         175.000000
+75%         175.000000
+max         175.000000
+Name: bit-score, dtype: float64
+
+Category: coverage
+count    103691.000000
+mean         99.236752
+std           3.834702
+min          25.000000
+25%         100.000000
+50%         100.000000
+75%         100.000000
+max         100.000000
+Name: coverage, dtype: float64
+
+******************************
+TRIM LENGTH 150
+Total queries run: 103730
+Total not hitting: 22
+Fraction not hitting: 0.0002
+
+Subsequent summaries based off of only those which recruit.
+Category: %id
+count    103708.000000
+mean         97.815640
+std           5.076966
+min          69.100000
+25%         100.000000
+50%         100.000000
+75%         100.000000
+max         100.000000
+Name: %id, dtype: float64
+
+Category: e-value
+count    1.037080e+05
+mean     5.387147e-05
+std      4.806058e-03
+min      1.780000e-66
+25%      1.860000e-66
+50%      2.130000e-66
+75%      2.260000e-66
+max      4.800000e-01
+Name: e-value, dtype: float64
+
+Category: bit-score
+count    103708.000000
+mean        246.347929
+std          36.041388
+min          45.000000
+25%         262.000000
+50%         262.000000
+75%         262.000000
+max         262.000000
+Name: bit-score, dtype: float64
+
+Category: coverage
+count    103708.000000
+mean         99.545833
+std           3.684717
+min          16.700000
+25%         100.000000
+50%         100.000000
+75%         100.000000
+max         100.000000
+Name: coverage, dtype: float64
+
+******************************
+TRIM LENGTH 250
+Total queries run: 103730
+Total not hitting: 6
+Fraction not hitting: 0.0001
+
+Subsequent summaries based off of only those which recruit.
+Category: %id
+count    103724.000000
+mean         98.016209
+std           4.558808
+min          65.600000
+25%         100.000000
+50%         100.000000
+75%         100.000000
+max         100.000000
+Name: %id, dtype: float64
+
+Category: e-value
+count     1.037240e+05
+mean      1.268589e-05
+std       2.095642e-03
+min      1.440000e-118
+25%      1.540000e-118
+50%      1.940000e-118
+75%      4.810000e-118
+max       4.510000e-01
+Name: e-value, dtype: float64
+
+Category: bit-score
+count    103724.000000
+mean        412.183256
+std          52.073061
+min          45.000000
+25%         434.000000
+50%         435.000000
+75%         436.000000
+max         436.000000
+Name: bit-score, dtype: float64
+
+Category: coverage
+count    103724.000000
+mean         99.852160
+std           2.235623
+min          14.000000
+25%         100.000000
+50%         100.000000
+75%         100.000000
+max         100.000000
+Name: coverage, dtype: float64
