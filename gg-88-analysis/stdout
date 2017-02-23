@@ -1,35 +1,38 @@
 TRIM LENGTH 100
-Total queries run: 37523
-Total not hitting: 49
-Fraction not hitting: 0.0013
+Total queries run: 37294
+Total not hitting: 33
+Fraction not hitting: 0.0009
+Mishit >= 5 times: 0
+Mishit >= 5 offenders and counts: 
+  QUERY(n=COUNT): LINEAGE
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    37474.000000
-mean        95.467599
-std          5.330528
-min         73.500000
-25%         91.500000
-50%         98.000000
-75%        100.000000
-max        100.000000
+count    37261.00000
+mean        95.41935
+std          5.39212
+min         72.80000
+25%         91.20000
+50%         98.00000
+75%        100.00000
+max        100.00000
 Name: %id, dtype: float64
 
 Category: e-value
-count    3.747400e+04
-mean     1.002243e-04
-std      5.910291e-03
-min      5.820000e-41
-25%      6.500000e-41
+count    3.726100e+04
+mean     9.549093e-05
+std      6.030175e-03
+min      5.960000e-41
+25%      6.590000e-41
 50%      2.770000e-38
-75%      4.040000e-28
-max      6.540000e-01
+75%      4.420000e-28
+max      6.460000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    37474.000000
-mean       152.023883
-std         27.307491
+count    37261.000000
+mean       151.736615
+std         27.618608
 min         42.000000
 25%        132.000000
 50%        166.000000
@@ -38,10 +41,10 @@ max        175.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    37474.000000
-mean        97.894220
-std          6.072457
-min         24.000000
+count    37261.000000
+mean        97.845012
+std          6.155604
+min         25.000000
 25%         99.000000
 50%        100.000000
 75%        100.000000
@@ -50,37 +53,40 @@ Name: coverage, dtype: float64
 
 ******************************
 TRIM LENGTH 150
-Total queries run: 37523
-Total not hitting: 26
-Fraction not hitting: 0.0007
+Total queries run: 37294
+Total not hitting: 19
+Fraction not hitting: 0.0005
+Mishit >= 5 times: 0
+Mishit >= 5 offenders and counts: 
+  QUERY(n=COUNT): LINEAGE
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    37497.000000
-mean        93.914340
-std          6.956275
+count    37275.000000
+mean        93.880341
+std          6.987919
 min         69.100000
-25%         88.300000
+25%         88.200000
 50%         97.300000
 75%        100.000000
 max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count    3.749700e+04
-mean     7.874847e-05
-std      6.037040e-03
-min      6.280000e-67
-25%      7.320000e-67
-50%      2.330000e-60
-75%      7.870000e-43
-max      5.700000e-01
+count    3.727500e+04
+mean     3.665892e-05
+std      3.365893e-03
+min      6.500000e-67
+25%      7.520000e-67
+50%      2.400000e-60
+75%      8.640000e-43
+max      5.500000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    37497.000000
-mean       219.193642
-std         49.331513
+count    37275.000000
+mean       218.781113
+std         49.754671
 min         43.000000
 25%        182.000000
 50%        240.000000
@@ -89,10 +95,10 @@ max        262.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    37497.000000
-mean        98.845812
-std          5.567366
-min         16.000000
+count    37275.000000
+mean        98.751329
+std          5.870834
+min         16.700000
 25%        100.000000
 50%        100.000000
 75%        100.000000
@@ -101,15 +107,18 @@ Name: coverage, dtype: float64
 
 ******************************
 TRIM LENGTH 250
-Total queries run: 37523
-Total not hitting: 11
-Fraction not hitting: 0.0003
+Total queries run: 37294
+Total not hitting: 6
+Fraction not hitting: 0.0002
+Mishit >= 5 times: 0
+Mishit >= 5 offenders and counts: 
+  QUERY(n=COUNT): LINEAGE
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    37512.000000
-mean        94.496401
-std          6.202698
+count    37288.000000
+mean        94.458574
+std          6.247081
 min         65.600000
 25%         89.600000
 50%         96.800000
@@ -118,31 +127,31 @@ max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count     3.751200e+04
-mean      8.851345e-05
-std       8.872367e-03
-min      5.080000e-119
-25%      6.420000e-119
-50%      6.160000e-108
-75%       1.180000e-83
-max       9.880000e-01
+count     3.728800e+04
+mean      4.455607e-05
+std       5.225720e-03
+min      5.360000e-119
+25%      6.790000e-119
+50%      2.380000e-107
+75%       1.380000e-83
+max       9.540000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    37512.000000
-mean       372.896726
-std         70.598404
+count    37288.000000
+mean       372.321498
+std         71.041597
 min         43.000000
 25%        318.000000
-50%        399.000000
+50%        397.000000
 75%        435.000000
 max        436.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    37512.000000
-mean        99.655161
-std          3.009703
+count    37288.000000
+mean        99.647549
+std          3.069524
 min         11.600000
 25%        100.000000
 50%        100.000000
@@ -152,51 +161,58 @@ Name: coverage, dtype: float64
 
 ******************************
 ALL
-Total queries run: 112569
-Total not hitting: 86
-Fraction not hitting: 0.0008
+Total queries run: 111882
+Total not hitting: 58
+Fraction not hitting: 0.0005
+Mishit >= 5 times: 3
+Mishit >= 5 offenders and counts: 
+  QUERY(n=COUNT): LINEAGE
+  202797(n=9): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
+  4354640(n=8): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
+  4380912(n=6): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Euglenozoa; f__; g__; s__
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    112483.000000
-mean         94.625924
-std           6.231990
+count    111824.000000
+mean         94.585969
+std           6.275403
 min          65.600000
-25%          89.900000
+25%          89.800000
 50%          97.300000
 75%         100.000000
 max         100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count     1.124830e+05
-mean      8.915972e-05
-std       7.073768e-03
-min      5.080000e-119
-25%       1.180000e-83
-50%       5.630000e-57
-75%       3.090000e-40
-max       9.880000e-01
+count     1.118240e+05
+mean      5.889572e-05
+std       4.999921e-03
+min      5.360000e-119
+25%       1.360000e-83
+50%       1.905000e-56
+75%       5.770000e-40
+max       9.540000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    112483.000000
-mean        248.074367
-std         106.157811
+count    111824.000000
+mean        247.639576
+std         106.246283
 min          42.000000
-25%         173.000000
-50%         229.000000
+25%         172.000000
+50%         227.000000
 75%         318.000000
 max         436.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    112483.000000
-mean         98.798697
-std           5.114276
+count    111824.000000
+mean         98.748181
+std           5.272351
 min          11.600000
 25%         100.000000
 50%         100.000000
 75%         100.000000
 max         100.000000
 Name: coverage, dtype: float64
+
