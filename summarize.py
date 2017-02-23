@@ -1,11 +1,16 @@
 import click
 import pandas as pd
 import glob
+import matplotlib.pyplot as plt
 
 
 @click.command()
-@click.option('--glob-pattern', type=str, default='*.blast')
-def summarize(glob_pattern):
+@click.option('--trim', type=int, default=None)
+def summarize(trim):
+    if trim is None:
+        trim = "*"
+    glob_pattern = "*.%s-*blast" % str(trim)
+
     blast3_header = ['query', 'subject', '%id', 'aln-length', 'mismatches',
                      'gap-openings', 'query-start', 'query-end',
                      'subject-start', 'subject-end', 'e-value', 'bit-score',
@@ -30,6 +35,12 @@ def summarize(glob_pattern):
         print("Category: %s" % c)
         print(desc)
         print()
+
+        plt.figure()
+        plt.hist(results[c].values, bins=100)
+        ax = plt.gca()
+        ax.set_yscale('log')
+        plt.savefig("%s-%s.png" % (trim if trim != '*' else 'all', c))
 
 
 if __name__ == '__main__':
