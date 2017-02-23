@@ -11,11 +11,11 @@ wait
 sh run_sortmerna.sh ${threads}
 
 echo "TRIM LENGTH 100"
-python summarize.py --glob-pattern="*.100.queries"
+python summarize.py --glob-pattern="*.100-*blast"
 echo "******************************\n"
 echo "TRIM LENGTH 150"
-python summarize.py --glob-pattern="*.150.queries"
+python summarize.py --glob-pattern="*.150-*blast"
 echo "******************************\n"
 echo "TRIM LENGTH 250"
-python summarize.py --glob-pattern="*.250.queries"
+python summarize.py --glob-pattern="*.250-*blast"
 echo "******************************\n"
