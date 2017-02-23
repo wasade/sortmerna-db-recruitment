@@ -12,10 +12,10 @@ sh run_sortmerna.sh ${threads}
 
 echo "TRIM LENGTH 100"
 python summarize.py --trim 100
-echo "******************************\n"
+echo "******************************"
 echo "TRIM LENGTH 150"
 python summarize.py --trim 150
-echo "******************************\n"
+echo "******************************"
 echo "TRIM LENGTH 250"
 python summarize.py --trim 250
-echo "******************************\n"
+echo "******************************"
