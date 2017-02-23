@@ -2,11 +2,13 @@ import click
 import pandas as pd
 import glob
 import matplotlib.pyplot as plt
+from collections import Counter
 
 
 @click.command()
 @click.option('--trim', type=int, default=None)
-def summarize(trim):
+@click.option('--taxonomy', type=click.Path(exists=True), required=True)
+def summarize(trim, taxonomy):
     if trim is None:
         trim = "*"
     glob_pattern = "*.%s-*blast" % str(trim)
@@ -23,9 +25,21 @@ def summarize(trim):
         results.append(r)
     results = pd.concat(results)
 
+    taxonomy = pd.read_csv(taxonomy, sep='\t', names=['GGID', 'Lineage'], dtype=str)
+    taxonomy.set_index('GGID', inplace=True)
+
     print("Total queries run: %d" % len(results))
     print("Total not hitting: %d" % ((results['subject'] == "*").sum()))
     print("Fraction not hitting: %0.4f" % ((results['subject'] == "*").sum() / len(results)))
+
+    mishits = results[results['subject'] == '*']
+    mishit_counts = mishits['query'].value_counts()
+    print("Mishit >= 5 times: %d" % sum(mishit_counts >= 5))
+    print("Mishit >= 5 offenders and counts: ")
+    print("  QUERY(n=COUNT): LINEAGE")
+    mishit_offenders = mishit_counts[mishit_counts >= 5]
+    for query, count in zip(mishit_offenders.index, mishit_offenders.values):
+        print('  %s(n=%d): %s' % (query, count, taxonomy.loc[query].Lineage))
 
     print("\nSubsequent summaries based off of only those which recruit.")
     results = results[results['subject'] != '*']
