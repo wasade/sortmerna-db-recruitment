@@ -35,7 +35,7 @@ def summarize(trim, taxonomy):
     mishits = results[results['subject'] == '*']
     total_counts = results['query'].value_counts()
     mishit_counts = mishits['query'].value_counts()
-    mishit_counts.sort(ascending=False)
+    mishit_counts.sort_values(ascending=False)
     print("Mishit summary: ")
     print("  QUERY(n=MISHIT-COUNT; m=TIMES-AS-QUERY): LINEAGE")
 
@@ -44,19 +44,39 @@ def summarize(trim, taxonomy):
                                         taxonomy.loc[query].Lineage))
 
     print("\nSubsequent summaries based off of only those which recruit.")
-    results = results[results['subject'] != '*']
+    hitresults = results[results['subject'] != '*']
     for c in ['%id', 'e-value', 'bit-score', 'coverage']:
-        results[c] = results[c].astype(float)
-        desc = results[c].describe()
+        hitresults[c] = hitresults[c].astype(float)
+        desc = hitresults[c].describe()
         print("Category: %s" % c)
         print(desc)
         print()
 
         plt.figure()
-        plt.hist(results[c].values, bins=100)
+        plt.hist(hitresults[c].values, bins=100)
         ax = plt.gca()
         ax.set_yscale('log')
         plt.savefig("%s-%s.png" % (trim if trim != '*' else 'all', c))
+
+    lowcov = hitresults['coverage'] < 50
+    lowcov_queries = hitresults[lowcov].copy()
+    lowcov_queries.sort_values('coverage', inplace=True)
+
+    # my pandas is showwing. the sort wasn't being maintained from what i
+    # could tell with the groupby
+    details = []
+    for id_, grp in lowcov_queries.groupby('query'):
+        details.append((grp['coverage'].mean(), (id_, grp['coverage'].mean(),
+                                                len(grp),
+                                                total_counts.loc[id_],
+                                                taxonomy.loc[id_].Lineage)))
+
+    print("Total below 50%% coverage: %d" % sum(lowcov))
+    print("Fraction below 50%% coverage: %0.4f" % (sum(lowcov) / len(lowcov)))
+    print("Lineage information:")
+    print("  QUERY(cov=MEAN-COVERAGE; n=BELOW-COVERAGE; m=TIMES-AS-QUERY): LINEAGE")
+    for _, detail in sorted(details):
+        print("  %s(cov=%d; n=%d; m=%d): %s" % detail)
 
 
 if __name__ == '__main__':

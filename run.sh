@@ -14,11 +14,17 @@ sh run_sortmerna.sh ${threads} > /dev/null 2> /dev/null
 echo "TRIM LENGTH 100"
 python summarize.py --trim 100 --taxonomy $taxonomy
 echo "******************************"
+echo "******************************"
+echo "******************************"
 echo "TRIM LENGTH 150"
 python summarize.py --trim 150 --taxonomy $taxonomy
 echo "******************************"
+echo "******************************"
+echo "******************************"
 echo "TRIM LENGTH 250"
 python summarize.py --trim 250 --taxonomy $taxonomy
+echo "******************************"
+echo "******************************"
 echo "******************************"
 echo "ALL"
 python summarize.py --taxonomy $taxonomy
