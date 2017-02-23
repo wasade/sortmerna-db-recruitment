@@ -1,65 +1,63 @@
 TRIM LENGTH 100
-Total queries run: 37318
-Total not hitting: 40
-Fraction not hitting: 0.0011
+Total queries run: 37021
+Total not hitting: 34
+Fraction not hitting: 0.0009
 Mishit summary: 
   QUERY(n=MISHIT-COUNT; m=TIMES-AS-QUERY): LINEAGE
-  4391685(n=5; m=7): k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Koribacteraceae; g__Candidatus Koribacter; s__
+  4354640(n=5; m=5): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
   229982(n=4; m=4): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Pseudoalteromonadaceae; g__; s__
-  4426459(n=4; m=4): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__Spirochaetales; f__Spirochaetaceae; g__; s__
-  4354640(n=4; m=5): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
-  1146733(n=3; m=5): k__Bacteria; p__Verrucomicrobia; c__[Spartobacteria]; o__[Chthoniobacterales]; f__[Chthoniobacteraceae]; g__DA101; s__
-  4397177(n=3; m=3): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
-  4354130(n=3; m=5): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
-  3749715(n=2; m=3): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__; g__; s__
-  1148064(n=2; m=5): k__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__; f__; g__; s__
-  202797(n=2; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
+  2278795(n=3; m=5): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
+  202797(n=3; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
+  326629(n=3; m=5): k__Bacteria; p__WWE1; c__[Cloacamonae]; o__[Cloacamonales]; f__[Cloacamonaceae]; g__W22; s__
+  3749715(n=3; m=7): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__; g__; s__
   4328130(n=2; m=4): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__
-  177898(n=1; m=1): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__; s__
-  4460178(n=1; m=2): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
-  2278795(n=1; m=2): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
-  81956(n=1; m=7): k__Bacteria; p__Synergistetes; c__Synergistia; o__Synergistales; f__Dethiosulfovibrionaceae; g__HA73; s__
-  1129716(n=1; m=1): k__Archaea; p__Crenarchaeota; c__Thaumarchaeota; o__Cenarchaeales; f__Cenarchaeaceae; g__Cenarchaeum; s__symbiosum
-  707761(n=1; m=3): k__Archaea; p__[Parvarchaeota]; c__[Micrarchaea]; o__[Micrarchaeles]; f__; g__; s__
+  4397177(n=2; m=4): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  1148064(n=2; m=3): k__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__; f__; g__; s__
+  4354130(n=2; m=4): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  4391685(n=1; m=4): k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Koribacteraceae; g__Candidatus Koribacter; s__
+  249844(n=1; m=5): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__; s__
+  1129716(n=1; m=4): k__Archaea; p__Crenarchaeota; c__Thaumarchaeota; o__Cenarchaeales; f__Cenarchaeaceae; g__Cenarchaeum; s__symbiosum
+  1146733(n=1; m=3): k__Bacteria; p__Verrucomicrobia; c__[Spartobacteria]; o__[Chthoniobacterales]; f__[Chthoniobacteraceae]; g__DA101; s__
+  4460178(n=1; m=3): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    37278.000000
-mean        95.498517
-std          5.304985
-min         72.300000
-25%         91.600000
+count    36987.000000
+mean        95.470427
+std          5.334532
+min         73.500000
+25%         91.300000
 50%         98.000000
 75%        100.000000
 max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count    3.727800e+04
-mean     1.340577e-04
-std      7.331675e-03
-min      5.990000e-41
-25%      6.560000e-41
-50%      2.770000e-38
-75%      2.430000e-28
-max      6.550000e-01
+count    3.698700e+04
+mean     1.215878e-04
+std      6.412396e-03
+min      5.710000e-41
+25%      6.600000e-41
+50%      2.720000e-38
+75%      4.080000e-28
+max      6.140000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    37278.000000
-mean       152.215596
-std         27.140912
+count    36987.000000
+mean       152.083381
+std         27.270078
 min         42.000000
-25%        133.000000
+25%        132.000000
 50%        166.000000
 75%        175.000000
 max        175.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    37278.000000
-mean        97.942137
-std          5.998686
+count    36987.000000
+mean        97.932084
+std          6.002224
 min         24.000000
 25%         99.000000
 50%        100.000000
@@ -67,27 +65,79 @@ min         24.000000
 max        100.000000
 Name: coverage, dtype: float64
 
+Total below 50% coverage: 77
+Fraction below 50% coverage: 0.0021
+Lineage information:
+  QUERY(cov=MEAN-COVERAGE; n=BELOW-COVERAGE; m=TIMES-AS-QUERY): LINEAGE
+  3779572(cov=24; n=6; m=6): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+  65383(cov=29; n=3; m=4): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__; s__
+  530315(cov=31; n=1; m=4): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__; f__; g__; s__
+  424619(cov=32; n=4; m=6): k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__
+  605142(cov=34; n=1; m=2): k__Bacteria; p__Acidobacteria; c__Solibacteres; o__Solibacterales; f__Solibacteraceae; g__Candidatus Solibacter; s__
+  514926(cov=36; n=1; m=2): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__longum
+  193598(cov=37; n=2; m=6): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Blautia; s__
+  4474675(cov=38; n=1; m=5): k__Bacteria; p__Planctomycetes; c__Planctomycetia; o__B97; f__; g__; s__
+  4477989(cov=38; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pyropia; s__haitanensis
+  304839(cov=40; n=4; m=5): k__Bacteria; p__GN02; c__IIB17; o__; f__; g__; s__
+  202518(cov=41; n=1; m=3): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__; f__; g__; s__
+  4399807(cov=41; n=2; m=4): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__SB-34; f__; g__; s__
+  1110096(cov=42; n=1; m=2): k__Bacteria; p__Nitrospirae; c__Nitrospira; o__Nitrospirales; f__; g__; s__
+  317368(cov=42; n=3; m=5): k__Bacteria; p__GN02; c__GN07; o__; f__; g__; s__
+  4353106(cov=42; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Tremblayales; f__Tremblayaceae; g__; s__
+  450270(cov=42; n=2; m=4): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__YLA114; f__; g__; s__
+  3014179(cov=43; n=1; m=1): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Cyanidioschyzon; s__merolae
+  4354131(cov=43; n=1; m=4): k__Bacteria; p__Spirochaetes; c__[Leptospirae]; o__[Leptospirales]; f__Leptospiraceae; g__Turneriella; s__
+  203151(cov=44; n=1; m=5): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  211918(cov=44; n=2; m=4): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  278436(cov=44; n=3; m=4): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  4146(cov=44; n=1; m=4): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__[Borreliales]; f__[Borreliaceae]; g__Borrelia; s__
+  4323734(cov=44; n=1; m=4): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Nocardiaceae; g__Nocardia; s__
+  4379200(cov=44; n=1; m=6): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  552271(cov=44; n=1; m=5): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  3899192(cov=45; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Malawimonas; s__jakobiformis
+  272428(cov=46; n=2; m=3): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__; s__
+  3770699(cov=46; n=1; m=3): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__WCHD3-30; f__; g__; s__
+  4015030(cov=46; n=1; m=2): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Mesostigma; s__viride
+  4021961(cov=46; n=2; m=6): k__Bacteria; p__GN02; c__BD1-5; o__; f__; g__; s__
+  4248037(cov=46; n=1; m=6): k__Bacteria; p__SR1; c__; o__; f__; g__; s__
+  44156(cov=46; n=2; m=4): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Cupriavidus; s__
+  644336(cov=46; n=1; m=2): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  652049(cov=46; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Marinobacterium; s__
+  82092(cov=46; n=1; m=4): k__Bacteria; p__OP11; c__OP11-2; o__KD3-145; f__; g__; s__
+  833140(cov=46; n=4; m=4): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__envOPS12; f__; g__; s__
+  2107103(cov=47; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pavlova; s__lutheri
+  4401305(cov=47; n=2; m=7): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Microbulbifer; s__
+  1147592(cov=48; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__; s__
+  137211(cov=48; n=3; m=4): k__Bacteria; p__SAR406; c__AB16; o__ZA3648c; f__AEGEAN_185; g__; s__
+  243779(cov=49; n=1; m=4): k__Bacteria; p__OP11; c__WCHB1-64; o__; f__; g__; s__
+  250492(cov=49; n=1; m=1): k__Bacteria; p__OD1; c__SM2F11; o__; f__; g__; s__
+  45149(cov=49; n=1; m=3): k__Bacteria; p__TM7; c__; o__; f__; g__; s__
+  52274(cov=49; n=2; m=4): k__Bacteria; p__Proteobacteria; c__TA18; o__PHOS-HD29; f__; g__; s__
+  835118(cov=49; n=1; m=3): k__Bacteria; p__SAR406; c__AB16; o__ZA3648c; f__AEGEAN_185; g__; s__
+******************************
+******************************
 ******************************
 TRIM LENGTH 150
-Total queries run: 37318
-Total not hitting: 20
-Fraction not hitting: 0.0005
+Total queries run: 37021
+Total not hitting: 22
+Fraction not hitting: 0.0006
 Mishit summary: 
   QUERY(n=MISHIT-COUNT; m=TIMES-AS-QUERY): LINEAGE
-  4354640(n=4; m=5): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
-  4426459(n=4; m=4): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__Spirochaetales; f__Spirochaetaceae; g__; s__
+  4354640(n=5; m=5): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
   229982(n=4; m=4): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Pseudoalteromonadaceae; g__; s__
-  202797(n=2; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
+  202797(n=3; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
+  2278795(n=3; m=5): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
+  1148064(n=2; m=3): k__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__; f__; g__; s__
   4328130(n=2; m=4): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__
-  1148064(n=2; m=5): k__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__; f__; g__; s__
-  2278795(n=1; m=2): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
-  4460178(n=1; m=2): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
+  4460178(n=1; m=3): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
+  3749715(n=1; m=7): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__; g__; s__
+  1146733(n=1; m=3): k__Bacteria; p__Verrucomicrobia; c__[Spartobacteria]; o__[Chthoniobacterales]; f__[Chthoniobacteraceae]; g__DA101; s__
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    37298.000000
-mean        93.966792
-std          6.901752
+count    36999.000000
+mean        93.948250
+std          6.926593
 min         69.100000
 25%         88.500000
 50%         97.300000
@@ -96,31 +146,31 @@ max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count    3.729800e+04
-mean     5.175024e-05
-std      5.160905e-03
-min      6.480000e-67
-25%      7.560000e-67
-50%      1.470000e-60
-75%      4.310000e-43
-max      5.800000e-01
+count    3.699900e+04
+mean     8.946805e-05
+std      6.196209e-03
+min      6.180000e-67
+25%      7.530000e-67
+50%      2.340000e-60
+75%      4.590000e-43
+max      5.670000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    37298.000000
-mean       219.538715
-std         48.997367
+count    36999.000000
+mean       219.423120
+std         49.125713
 min         43.000000
 25%        183.000000
-50%        241.000000
+50%        240.000000
 75%        262.000000
 max        262.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    37298.000000
-mean        98.840922
-std          5.660515
+count    36999.000000
+mean        98.854245
+std          5.583636
 min         16.000000
 25%        100.000000
 50%        100.000000
@@ -128,21 +178,125 @@ min         16.000000
 max        100.000000
 Name: coverage, dtype: float64
 
+Total below 50% coverage: 169
+Fraction below 50% coverage: 0.0046
+Lineage information:
+  QUERY(cov=MEAN-COVERAGE; n=BELOW-COVERAGE; m=TIMES-AS-QUERY): LINEAGE
+  3779572(cov=16; n=6; m=6): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+  65383(cov=19; n=3; m=4): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__; s__
+  530315(cov=20; n=1; m=4): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__; f__; g__; s__
+  805474(cov=22; n=4; m=6): k__Archaea; p__[Parvarchaeota]; c__[Micrarchaea]; o__[Micrarchaeles]; f__; g__; s__
+  4477989(cov=25; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pyropia; s__haitanensis
+  836717(cov=25; n=1; m=2): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  1142829(cov=27; n=1; m=4): k__Bacteria; p__Chloroflexi; c__SAR202; o__; f__; g__; s__
+  328135(cov=27; n=2; m=3): k__Bacteria; p__OD1; c__Mb-NB09; o__; f__; g__; s__
+  317368(cov=28; n=1; m=5): k__Bacteria; p__GN02; c__GN07; o__; f__; g__; s__
+  3927137(cov=28; n=1; m=5): k__Bacteria; p__GN02; c__; o__; f__; g__; s__
+  4353106(cov=28; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Tremblayales; f__Tremblayaceae; g__; s__
+  3014179(cov=28; n=1; m=1): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Cyanidioschyzon; s__merolae
+  203151(cov=29; n=1; m=5): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  211918(cov=29; n=2; m=4): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  278436(cov=29; n=2; m=4): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  4146(cov=29; n=1; m=4): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__[Borreliales]; f__[Borreliaceae]; g__Borrelia; s__
+  4323734(cov=29; n=1; m=4): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Nocardiaceae; g__Nocardia; s__
+  4399807(cov=29; n=3; m=4): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__SB-34; f__; g__; s__
+  3899192(cov=30; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Malawimonas; s__jakobiformis
+  3770699(cov=30; n=1; m=3): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__WCHD3-30; f__; g__; s__
+  4015030(cov=30; n=1; m=2): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Mesostigma; s__viride
+  4021961(cov=30; n=2; m=6): k__Bacteria; p__GN02; c__BD1-5; o__; f__; g__; s__
+  4248037(cov=30; n=1; m=6): k__Bacteria; p__SR1; c__; o__; f__; g__; s__
+  652049(cov=30; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Marinobacterium; s__
+  1147592(cov=32; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__; s__
+  2107103(cov=32; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pavlova; s__lutheri
+  4474675(cov=32; n=4; m=5): k__Bacteria; p__Planctomycetes; c__Planctomycetia; o__B97; f__; g__; s__
+  243779(cov=32; n=1; m=4): k__Bacteria; p__OP11; c__WCHB1-64; o__; f__; g__; s__
+  4391685(cov=32; n=1; m=4): k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Koribacteraceae; g__Candidatus Koribacter; s__
+  45149(cov=32; n=1; m=3): k__Bacteria; p__TM7; c__; o__; f__; g__; s__
+  52274(cov=32; n=2; m=4): k__Bacteria; p__Proteobacteria; c__TA18; o__PHOS-HD29; f__; g__; s__
+  835118(cov=32; n=1; m=3): k__Bacteria; p__SAR406; c__AB16; o__ZA3648c; f__AEGEAN_185; g__; s__
+  266622(cov=34; n=3; m=3): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  3383796(cov=34; n=3; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Dictyota; s__dichotoma
+  833140(cov=35; n=4; m=4): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__envOPS12; f__; g__; s__
+  243587(cov=36; n=1; m=3): k__Bacteria; p__Armatimonadetes; c__Chthonomonadetes; o__Chthonomonadales; f__Chthonomonadaceae; g__Chthonomonas; s__
+  2521448(cov=36; n=1; m=3): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__CAB-I; f__; g__; s__
+  105025(cov=36; n=1; m=3): k__Bacteria; p__OP3; c__koll11; o__; f__; g__; s__
+  1141209(cov=36; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__; f__; g__; s__
+  1837676(cov=36; n=3; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Vermamoeba; s__vermiformis
+  201121(cov=36; n=1; m=1): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  2183857(cov=36; n=1; m=5): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  251082(cov=36; n=1; m=4): k__Bacteria; p__; c__; o__; f__; g__; s__
+  256207(cov=36; n=2; m=6): k__Bacteria; p__GN02; c__BD1-5; o__; f__; g__; s__
+  259778(cov=36; n=1; m=2): k__Bacteria; p__OD1; c__ZB2; o__; f__; g__; s__
+  2858609(cov=36; n=3; m=5): k__Archaea; p__[Parvarchaeota]; c__[Micrarchaea]; o__[Micrarchaeles]; f__; g__; s__
+  3064426(cov=36; n=2; m=4): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Bigelowiella; s__natans
+  343816(cov=36; n=1; m=6): k__Bacteria; p__TM6; c__SJA-4; o__; f__; g__; s__
+  4328888(cov=36; n=1; m=6): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  4406270(cov=36; n=1; m=4): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  4472239(cov=36; n=2; m=4): k__Bacteria; p__Chlorobi; c__OPB56; o__; f__; g__; s__
+  4479394(cov=36; n=2; m=7): k__Bacteria; p__GN02; c__SBYW_2184; o__; f__; g__; s__
+  48617(cov=36; n=1; m=2): k__Bacteria; p__Spirochaetes; c__MVP-15; o__; f__; g__; s__
+  562206(cov=36; n=1; m=2): k__Bacteria; p__Chloroflexi; c__Chloroflexi; o__Herpetosiphonales; f__; g__; s__
+  65687(cov=36; n=2; m=4): k__Bacteria; p__TM7; c__SC3; o__; f__; g__; s__
+  809666(cov=36; n=1; m=4): k__Bacteria; p__Proteobacteria; c__TA18; o__PHOS-HD29; f__; g__; s__
+  811785(cov=36; n=2; m=5): k__Bacteria; p__Chloroflexi; c__; o__; f__; g__; s__
+  1604187(cov=37; n=4; m=7): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Coccomyxa; s__subellipsoidea
+  2414618(cov=37; n=1; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Heterosigma; s__akashiwo
+  4098422(cov=37; n=1; m=4): k__Bacteria; p__Planctomycetes; c__C6; o__MVS-107; f__; g__; s__
+  1638796(cov=38; n=1; m=4): k__Bacteria; p__Chloroflexi; c__Ktedonobacteria; o__TK10; f__; g__; s__
+  203101(cov=38; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Endozoicimonaceae; g__; s__
+  206088(cov=38; n=1; m=2): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  251541(cov=38; n=3; m=3): k__Bacteria; p__GN02; c__BB34; o__; f__; g__; s__
+  3836963(cov=38; n=2; m=2): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Prototheca; s__wickerhamii
+  4475735(cov=38; n=1; m=4): k__Bacteria; p__WS6; c__; o__; f__; g__; s__
+  717487(cov=38; n=2; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  4397177(cov=38; n=2; m=4): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  1939595(cov=39; n=2; m=3): k__Bacteria; p__GN02; c__; o__; f__; g__; s__
+  1146677(cov=41; n=2; m=3): k__Bacteria; p__WS3; c__PRR-12; o__Sediment-1; f__CV106; g__; s__
+  4483530(cov=42; n=1; m=3): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  730039(cov=42; n=2; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  550349(cov=43; n=3; m=4): k__Bacteria; p__GN02; c__3BR-5F; o__; f__; g__; s__
+  2261036(cov=43; n=1; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  3516209(cov=43; n=1; m=1): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  741675(cov=43; n=1; m=3): k__Bacteria; p__Spirochaetes; c__[Brachyspirae]; o__[Brachyspirales]; f__Brachyspiraceae; g__; s__
+  795216(cov=43; n=2; m=3): k__Bacteria; p__Spirochaetes; c__GN05; o__; f__; g__; s__
+  4108286(cov=44; n=1; m=4): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Silene; s__conica
+  4314635(cov=44; n=1; m=3): k__Bacteria; p__Chloroflexi; c__Ktedonobacteria; o__Ktedonobacterales; f__Ktedonobacteraceae; g__; s__
+  4415438(cov=44; n=1; m=1): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  513869(cov=44; n=2; m=5): k__Bacteria; p__OP11; c__WCHB1-64; o__d153; f__; g__; s__
+  4354130(cov=44; n=2; m=4): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  3025741(cov=44; n=2; m=3): k__Bacteria; p__; c__; o__; f__; g__; s__
+  558772(cov=44; n=2; m=2): k__Bacteria; p__Tenericutes; c__Mollicutes; o__Anaeroplasmatales; f__Anaeroplasmataceae; g__; s__
+  3594973(cov=45; n=1; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Saprolegnia; s__ferax
+  3837757(cov=45; n=1; m=6): k__Bacteria; p__OP11; c__OP11-3; o__; f__; g__; s__
+  4418110(cov=45; n=4; m=4): k__Archaea; p__Crenarchaeota; c__MBGB; o__; f__; g__; s__
+  512330(cov=46; n=2; m=3): k__Bacteria; p__Fibrobacteres; c__Fibrobacteria; o__Fibrobacterales; f__; g__; s__
+  651013(cov=46; n=1; m=3): k__Bacteria; p__OP3; c__koll11; o__; f__; g__; s__
+  1147428(cov=46; n=1; m=2): k__Bacteria; p__Acidobacteria; c__Sva0725; o__Sva0725; f__; g__; s__
+  1145804(cov=47; n=2; m=5): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__SBR1031; f__A4b; g__; s__
+  2088685(cov=47; n=1; m=2): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__longum
+  4377536(cov=47; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Trebouxia; s__aggregata
+  4452949(cov=47; n=4; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  4419506(cov=47; n=5; m=5): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+  310505(cov=48; n=1; m=3): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__S24-7; g__; s__
+  4409591(cov=49; n=1; m=2): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__YLA114; f__; g__; s__
+  605142(cov=49; n=1; m=2): k__Bacteria; p__Acidobacteria; c__Solibacteres; o__Solibacterales; f__Solibacteraceae; g__Candidatus Solibacter; s__
+******************************
+******************************
 ******************************
 TRIM LENGTH 250
-Total queries run: 37318
-Total not hitting: 3
+Total queries run: 37021
+Total not hitting: 4
 Fraction not hitting: 0.0001
 Mishit summary: 
   QUERY(n=MISHIT-COUNT; m=TIMES-AS-QUERY): LINEAGE
-  202797(n=2; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
-  4460178(n=1; m=2): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
+  202797(n=3; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
+  4460178(n=1; m=3): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    37315.000000
-mean        94.534284
-std          6.165160
+count    37017.000000
+mean        94.536789
+std          6.143509
 min         65.600000
 25%         89.600000
 50%         96.800000
@@ -151,31 +305,31 @@ max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count     3.731500e+04
-mean      3.235887e-05
-std       5.009207e-03
-min      5.270000e-119
-25%      6.950000e-119
-50%      6.760000e-108
-75%       7.660000e-84
-max       9.500000e-01
+count     3.701700e+04
+mean      8.623092e-05
+std       8.846537e-03
+min      5.020000e-119
+25%      6.820000e-119
+50%      2.680000e-108
+75%       7.300000e-84
+max       9.830000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    37315.000000
-mean       373.228782
-std         70.273736
+count    37017.000000
+mean       373.178053
+std         69.905519
 min         43.000000
 25%        319.000000
-50%        399.000000
+50%        400.000000
 75%        435.000000
 max        436.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    37315.000000
-mean        99.644355
-std          3.145906
+count    37017.000000
+mean        99.648734
+std          3.146202
 min         11.600000
 25%        100.000000
 50%        100.000000
@@ -183,36 +337,65 @@ min         11.600000
 max        100.000000
 Name: coverage, dtype: float64
 
+Total below 50% coverage: 57
+Fraction below 50% coverage: 0.0015
+Lineage information:
+  QUERY(cov=MEAN-COVERAGE; n=BELOW-COVERAGE; m=TIMES-AS-QUERY): LINEAGE
+  65383(cov=11; n=3; m=4): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__; s__
+  1147592(cov=14; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__; s__
+  4477989(cov=20; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pyropia; s__haitanensis
+  3383796(cov=20; n=1; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Dictyota; s__dichotoma
+  3064426(cov=22; n=1; m=4): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Bigelowiella; s__natans
+  1604187(cov=22; n=4; m=7): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Coccomyxa; s__subellipsoidea
+  203101(cov=22; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Endozoicimonaceae; g__; s__
+  3836963(cov=22; n=2; m=2): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Prototheca; s__wickerhamii
+  202449(cov=23; n=4; m=4): k__Bacteria; p__Tenericutes; c__Mollicutes; o__Entomoplasmatales; f__; g__; s__
+  256207(cov=24; n=2; m=6): k__Bacteria; p__GN02; c__BD1-5; o__; f__; g__; s__
+  4418110(cov=27; n=4; m=4): k__Archaea; p__Crenarchaeota; c__MBGB; o__; f__; g__; s__
+  4377536(cov=28; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Trebouxia; s__aggregata
+  833140(cov=28; n=2; m=4): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__envOPS12; f__; g__; s__
+  4108286(cov=33; n=1; m=4): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Silene; s__conica
+  4015030(cov=36; n=1; m=2): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Mesostigma; s__viride
+  4419506(cov=37; n=5; m=5): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+  139347(cov=38; n=2; m=2): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__; s__
+  4467331(cov=39; n=3; m=3): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
+  4397177(cov=42; n=1; m=4): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  4466628(cov=42; n=1; m=1): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Coxiellaceae; g__; s__
+  4301112(cov=43; n=4; m=5): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__Spirochaetales; f__Spirochaetaceae; g__Treponema; s__
+  717487(cov=44; n=2; m=5): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  2268709(cov=45; n=4; m=4): k__Bacteria; p__BRC1; c__PRR-11; o__; f__; g__; s__
+  4298210(cov=47; n=1; m=4): k__Archaea; p__Crenarchaeota; c__MHVG; o__; f__; g__; s__
+  3779572(cov=49; n=4; m=6): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+******************************
+******************************
 ******************************
 ALL
-Total queries run: 111954
-Total not hitting: 63
-Fraction not hitting: 0.0006
+Total queries run: 111063
+Total not hitting: 60
+Fraction not hitting: 0.0005
 Mishit summary: 
   QUERY(n=MISHIT-COUNT; m=TIMES-AS-QUERY): LINEAGE
+  4354640(n=10; m=15): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
+  202797(n=9; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
   229982(n=8; m=12): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Pseudoalteromonadaceae; g__; s__
-  4426459(n=8; m=12): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__Spirochaetales; f__Spirochaetaceae; g__; s__
-  4354640(n=8; m=15): k__Bacteria; p__Acidobacteria; c__Acidobacteria-6; o__iii1-15; f__; g__; s__
-  202797(n=6; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Kiloniellales; f__; g__; s__
-  4391685(n=5; m=21): k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Koribacteraceae; g__Candidatus Koribacter; s__
+  2278795(n=6; m=15): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
   4328130(n=4; m=12): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__
-  1148064(n=4; m=15): k__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__; f__; g__; s__
-  4397177(n=3; m=9): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
-  4460178(n=3; m=6): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
-  4354130(n=3; m=15): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
-  1146733(n=3; m=15): k__Bacteria; p__Verrucomicrobia; c__[Spartobacteria]; o__[Chthoniobacterales]; f__[Chthoniobacteraceae]; g__DA101; s__
-  2278795(n=2; m=6): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
-  3749715(n=2; m=9): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__; g__; s__
-  177898(n=1; m=3): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__; s__
-  81956(n=1; m=21): k__Bacteria; p__Synergistetes; c__Synergistia; o__Synergistales; f__Dethiosulfovibrionaceae; g__HA73; s__
-  1129716(n=1; m=3): k__Archaea; p__Crenarchaeota; c__Thaumarchaeota; o__Cenarchaeales; f__Cenarchaeaceae; g__Cenarchaeum; s__symbiosum
-  707761(n=1; m=9): k__Archaea; p__[Parvarchaeota]; c__[Micrarchaea]; o__[Micrarchaeles]; f__; g__; s__
+  3749715(n=4; m=21): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__; g__; s__
+  1148064(n=4; m=9): k__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__; f__; g__; s__
+  4460178(n=3; m=9): k__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__; s__
+  326629(n=3; m=15): k__Bacteria; p__WWE1; c__[Cloacamonae]; o__[Cloacamonales]; f__[Cloacamonaceae]; g__W22; s__
+  1146733(n=2; m=9): k__Bacteria; p__Verrucomicrobia; c__[Spartobacteria]; o__[Chthoniobacterales]; f__[Chthoniobacteraceae]; g__DA101; s__
+  4397177(n=2; m=12): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  4354130(n=2; m=12): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  249844(n=1; m=15): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__; s__
+  4391685(n=1; m=12): k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Koribacteraceae; g__Candidatus Koribacter; s__
+  1129716(n=1; m=12): k__Archaea; p__Crenarchaeota; c__Thaumarchaeota; o__Cenarchaeales; f__Cenarchaeaceae; g__Cenarchaeum; s__symbiosum
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    111891.000000
-mean         94.666362
-std           6.191082
+count    111003.000000
+mean         94.651715
+std           6.200984
 min          65.600000
 25%          90.000000
 50%          97.300000
@@ -221,31 +404,31 @@ max         100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count     1.118910e+05
-mean      7.270517e-05
-std       5.929304e-03
-min      5.270000e-119
-25%       7.530000e-84
-50%       3.220000e-57
-75%       1.820000e-40
-max       9.500000e-01
+count     1.110030e+05
+mean      9.909108e-05
+std       7.252291e-03
+min      5.020000e-119
+25%       7.280000e-84
+50%       1.840000e-57
+75%       1.770000e-40
+max       9.830000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    111891.000000
-mean        248.363854
-std         106.061916
+count    111003.000000
+mean        248.258840
+std         106.042119
 min          42.000000
 25%         174.000000
-50%         230.000000
+50%         231.000000
 75%         319.000000
 max         436.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    111891.000000
-mean         98.809420
-std           5.143233
+count    111003.000000
+mean         98.811919
+std           5.117488
 min          11.600000
 25%         100.000000
 50%         100.000000
@@ -253,3 +436,129 @@ min          11.600000
 max         100.000000
 Name: coverage, dtype: float64
 
+Total below 50% coverage: 303
+Fraction below 50% coverage: 0.0027
+Lineage information:
+  QUERY(cov=MEAN-COVERAGE; n=BELOW-COVERAGE; m=TIMES-AS-QUERY): LINEAGE
+  65383(cov=19; n=9; m=12): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__; s__
+  805474(cov=22; n=4; m=18): k__Archaea; p__[Parvarchaeota]; c__[Micrarchaea]; o__[Micrarchaeles]; f__; g__; s__
+  202449(cov=23; n=4; m=12): k__Bacteria; p__Tenericutes; c__Mollicutes; o__Entomoplasmatales; f__; g__; s__
+  836717(cov=25; n=1; m=6): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  530315(cov=25; n=2; m=12): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__; f__; g__; s__
+  1142829(cov=27; n=1; m=12): k__Bacteria; p__Chloroflexi; c__SAR202; o__; f__; g__; s__
+  328135(cov=27; n=2; m=9): k__Bacteria; p__OD1; c__Mb-NB09; o__; f__; g__; s__
+  3779572(cov=27; n=16; m=18): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+  4477989(cov=27; n=3; m=9): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pyropia; s__haitanensis
+  3927137(cov=28; n=1; m=15): k__Bacteria; p__GN02; c__; o__; f__; g__; s__
+  1604187(cov=29; n=8; m=21): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Coccomyxa; s__subellipsoidea
+  3836963(cov=30; n=4; m=6): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Prototheca; s__wickerhamii
+  256207(cov=30; n=4; m=18): k__Bacteria; p__GN02; c__BD1-5; o__; f__; g__; s__
+  3383796(cov=31; n=4; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Dictyota; s__dichotoma
+  1147592(cov=31; n=6; m=9): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__; s__
+  3064426(cov=31; n=3; m=12): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Bigelowiella; s__natans
+  424619(cov=32; n=4; m=18): k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__
+  4391685(cov=32; n=1; m=12): k__Bacteria; p__Acidobacteria; c__Acidobacteriia; o__Acidobacteriales; f__Koribacteraceae; g__Candidatus Koribacter; s__
+  203101(cov=32; n=3; m=9): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Endozoicimonaceae; g__; s__
+  4474675(cov=33; n=5; m=15): k__Bacteria; p__Planctomycetes; c__Planctomycetia; o__B97; f__; g__; s__
+  4399807(cov=34; n=5; m=12): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__SB-34; f__; g__; s__
+  266622(cov=34; n=3; m=9): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  4353106(cov=35; n=2; m=9): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Tremblayales; f__Tremblayaceae; g__; s__
+  3014179(cov=35; n=2; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Cyanidioschyzon; s__merolae
+  243587(cov=36; n=1; m=9): k__Bacteria; p__Armatimonadetes; c__Chthonomonadetes; o__Chthonomonadales; f__Chthonomonadaceae; g__Chthonomonas; s__
+  2521448(cov=36; n=1; m=9): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__CAB-I; f__; g__; s__
+  514926(cov=36; n=1; m=6): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__longum
+  4418110(cov=36; n=8; m=12): k__Archaea; p__Crenarchaeota; c__MBGB; o__; f__; g__; s__
+  203151(cov=36; n=2; m=15): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  211918(cov=36; n=4; m=12): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  4146(cov=36; n=2; m=12): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__[Borreliales]; f__[Borreliaceae]; g__Borrelia; s__
+  4323734(cov=36; n=2; m=12): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Nocardiaceae; g__Nocardia; s__
+  105025(cov=36; n=1; m=9): k__Bacteria; p__OP3; c__koll11; o__; f__; g__; s__
+  1141209(cov=36; n=2; m=9): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__; f__; g__; s__
+  1837676(cov=36; n=3; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Vermamoeba; s__vermiformis
+  201121(cov=36; n=1; m=3): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  2183857(cov=36; n=1; m=15): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  251082(cov=36; n=1; m=12): k__Bacteria; p__; c__; o__; f__; g__; s__
+  259778(cov=36; n=1; m=6): k__Bacteria; p__OD1; c__ZB2; o__; f__; g__; s__
+  2858609(cov=36; n=3; m=15): k__Archaea; p__[Parvarchaeota]; c__[Micrarchaea]; o__[Micrarchaeles]; f__; g__; s__
+  343816(cov=36; n=1; m=18): k__Bacteria; p__TM6; c__SJA-4; o__; f__; g__; s__
+  4328888(cov=36; n=1; m=18): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  4406270(cov=36; n=1; m=12): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  4472239(cov=36; n=2; m=12): k__Bacteria; p__Chlorobi; c__OPB56; o__; f__; g__; s__
+  4479394(cov=36; n=2; m=21): k__Bacteria; p__GN02; c__SBYW_2184; o__; f__; g__; s__
+  48617(cov=36; n=1; m=6): k__Bacteria; p__Spirochaetes; c__MVP-15; o__; f__; g__; s__
+  562206(cov=36; n=1; m=6): k__Bacteria; p__Chloroflexi; c__Chloroflexi; o__Herpetosiphonales; f__; g__; s__
+  65687(cov=36; n=2; m=12): k__Bacteria; p__TM7; c__SC3; o__; f__; g__; s__
+  809666(cov=36; n=1; m=12): k__Bacteria; p__Proteobacteria; c__TA18; o__PHOS-HD29; f__; g__; s__
+  811785(cov=36; n=2; m=15): k__Bacteria; p__Chloroflexi; c__; o__; f__; g__; s__
+  193598(cov=37; n=2; m=18): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Blautia; s__
+  2107103(cov=37; n=3; m=9): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Pavlova; s__lutheri
+  2414618(cov=37; n=1; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Heterosigma; s__akashiwo
+  4098422(cov=37; n=1; m=12): k__Bacteria; p__Planctomycetes; c__C6; o__MVS-107; f__; g__; s__
+  3899192(cov=37; n=2; m=9): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Malawimonas; s__jakobiformis
+  4015030(cov=37; n=3; m=6): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Mesostigma; s__viride
+  4377536(cov=37; n=2; m=9): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Trebouxia; s__aggregata
+  1638796(cov=38; n=1; m=12): k__Bacteria; p__Chloroflexi; c__Ktedonobacteria; o__TK10; f__; g__; s__
+  206088(cov=38; n=1; m=6): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  251541(cov=38; n=3; m=9): k__Bacteria; p__GN02; c__BB34; o__; f__; g__; s__
+  4475735(cov=38; n=1; m=12): k__Bacteria; p__WS6; c__; o__; f__; g__; s__
+  278436(cov=38; n=5; m=12): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  3770699(cov=38; n=2; m=9): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__WCHD3-30; f__; g__; s__
+  4021961(cov=38; n=4; m=18): k__Bacteria; p__GN02; c__BD1-5; o__; f__; g__; s__
+  4248037(cov=38; n=2; m=18): k__Bacteria; p__SR1; c__; o__; f__; g__; s__
+  652049(cov=38; n=2; m=9): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Marinobacterium; s__
+  833140(cov=38; n=10; m=12): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__envOPS12; f__; g__; s__
+  317368(cov=38; n=4; m=15): k__Bacteria; p__GN02; c__GN07; o__; f__; g__; s__
+  139347(cov=38; n=2; m=6): k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__; s__
+  4108286(cov=38; n=2; m=12): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Silene; s__conica
+  1939595(cov=39; n=2; m=9): k__Bacteria; p__GN02; c__; o__; f__; g__; s__
+  4467331(cov=39; n=3; m=9): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__; s__
+  4397177(cov=39; n=3; m=12): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  304839(cov=40; n=4; m=15): k__Bacteria; p__GN02; c__IIB17; o__; f__; g__; s__
+  243779(cov=40; n=2; m=12): k__Bacteria; p__OP11; c__WCHB1-64; o__; f__; g__; s__
+  45149(cov=40; n=2; m=9): k__Bacteria; p__TM7; c__; o__; f__; g__; s__
+  52274(cov=40; n=4; m=12): k__Bacteria; p__Proteobacteria; c__TA18; o__PHOS-HD29; f__; g__; s__
+  835118(cov=40; n=2; m=9): k__Bacteria; p__SAR406; c__AB16; o__ZA3648c; f__AEGEAN_185; g__; s__
+  202518(cov=41; n=1; m=9): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__; f__; g__; s__
+  717487(cov=41; n=4; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  1146677(cov=41; n=2; m=9): k__Bacteria; p__WS3; c__PRR-12; o__Sediment-1; f__CV106; g__; s__
+  605142(cov=41; n=2; m=6): k__Bacteria; p__Acidobacteria; c__Solibacteres; o__Solibacterales; f__Solibacteraceae; g__Candidatus Solibacter; s__
+  1110096(cov=42; n=1; m=6): k__Bacteria; p__Nitrospirae; c__Nitrospira; o__Nitrospirales; f__; g__; s__
+  450270(cov=42; n=2; m=12): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__YLA114; f__; g__; s__
+  4466628(cov=42; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Legionellales; f__Coxiellaceae; g__; s__
+  4419506(cov=42; n=10; m=15): k__Bacteria; p__Cyanobacteria; c__Chloroplast; o__Streptophyta; f__; g__; s__
+  4483530(cov=42; n=1; m=9): k__Bacteria; p__OP11; c__OP11-4; o__; f__; g__; s__
+  730039(cov=42; n=2; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  4354131(cov=43; n=1; m=12): k__Bacteria; p__Spirochaetes; c__[Leptospirae]; o__[Leptospirales]; f__Leptospiraceae; g__Turneriella; s__
+  550349(cov=43; n=3; m=12): k__Bacteria; p__GN02; c__3BR-5F; o__; f__; g__; s__
+  2261036(cov=43; n=1; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  3516209(cov=43; n=1; m=3): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  741675(cov=43; n=1; m=9): k__Bacteria; p__Spirochaetes; c__[Brachyspirae]; o__[Brachyspirales]; f__Brachyspiraceae; g__; s__
+  795216(cov=43; n=2; m=9): k__Bacteria; p__Spirochaetes; c__GN05; o__; f__; g__; s__
+  4301112(cov=43; n=4; m=15): k__Bacteria; p__Spirochaetes; c__Spirochaetes; o__Spirochaetales; f__Spirochaetaceae; g__Treponema; s__
+  4314635(cov=44; n=1; m=9): k__Bacteria; p__Chloroflexi; c__Ktedonobacteria; o__Ktedonobacterales; f__Ktedonobacteraceae; g__; s__
+  4379200(cov=44; n=1; m=18): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  4415438(cov=44; n=1; m=3): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  513869(cov=44; n=2; m=15): k__Bacteria; p__OP11; c__WCHB1-64; o__d153; f__; g__; s__
+  552271(cov=44; n=1; m=15): k__Bacteria; p__AC1; c__; o__; f__; g__; s__
+  4354130(cov=44; n=2; m=12): k__Archaea; p__Euryarchaeota; c__DSEG; o__DHVE3; f__; g__; s__
+  3025741(cov=44; n=2; m=9): k__Bacteria; p__; c__; o__; f__; g__; s__
+  558772(cov=44; n=2; m=6): k__Bacteria; p__Tenericutes; c__Mollicutes; o__Anaeroplasmatales; f__Anaeroplasmataceae; g__; s__
+  3594973(cov=45; n=1; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__Saprolegnia; s__ferax
+  3837757(cov=45; n=1; m=18): k__Bacteria; p__OP11; c__OP11-3; o__; f__; g__; s__
+  2268709(cov=45; n=4; m=12): k__Bacteria; p__BRC1; c__PRR-11; o__; f__; g__; s__
+  272428(cov=46; n=2; m=9): k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__; s__
+  44156(cov=46; n=2; m=12): k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Cupriavidus; s__
+  512330(cov=46; n=2; m=9): k__Bacteria; p__Fibrobacteres; c__Fibrobacteria; o__Fibrobacterales; f__; g__; s__
+  644336(cov=46; n=1; m=6): k__Bacteria; p__OD1; c__; o__; f__; g__; s__
+  651013(cov=46; n=1; m=9): k__Bacteria; p__OP3; c__koll11; o__; f__; g__; s__
+  82092(cov=46; n=1; m=12): k__Bacteria; p__OP11; c__OP11-2; o__KD3-145; f__; g__; s__
+  1147428(cov=46; n=1; m=6): k__Bacteria; p__Acidobacteria; c__Sva0725; o__Sva0725; f__; g__; s__
+  4401305(cov=47; n=2; m=21): k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Microbulbifer; s__
+  4298210(cov=47; n=1; m=12): k__Archaea; p__Crenarchaeota; c__MHVG; o__; f__; g__; s__
+  1145804(cov=47; n=2; m=15): k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__SBR1031; f__A4b; g__; s__
+  2088685(cov=47; n=1; m=6): k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__longum
+  4452949(cov=47; n=4; m=15): k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__mitochondria; g__; s__
+  137211(cov=48; n=3; m=12): k__Bacteria; p__SAR406; c__AB16; o__ZA3648c; f__AEGEAN_185; g__; s__
+  310505(cov=48; n=1; m=9): k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__S24-7; g__; s__
+  250492(cov=49; n=1; m=3): k__Bacteria; p__OD1; c__SM2F11; o__; f__; g__; s__
+  4409591(cov=49; n=1; m=6): k__Archaea; p__[Parvarchaeota]; c__[Parvarchaea]; o__YLA114; f__; g__; s__
