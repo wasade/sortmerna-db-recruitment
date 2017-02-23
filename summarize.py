@@ -33,13 +33,15 @@ def summarize(trim, taxonomy):
     print("Fraction not hitting: %0.4f" % ((results['subject'] == "*").sum() / len(results)))
 
     mishits = results[results['subject'] == '*']
+    total_counts = results['query'].value_counts()
     mishit_counts = mishits['query'].value_counts()
-    print("Mishit >= 5 times: %d" % sum(mishit_counts >= 5))
-    print("Mishit >= 5 offenders and counts: ")
-    print("  QUERY(n=COUNT): LINEAGE")
-    mishit_offenders = mishit_counts[mishit_counts >= 5]
-    for query, count in zip(mishit_offenders.index, mishit_offenders.values):
-        print('  %s(n=%d): %s' % (query, count, taxonomy.loc[query].Lineage))
+    mishit_counts.sort(ascending=False)
+    print("Mishit summary: ")
+    print("  QUERY(n=MISHIT-COUNT; m=TIMES-AS-QUERY): LINEAGE")
+
+    for query, count in zip(mishit_counts.index, mishit_counts.values):
+        print('  %s(n=%d; m=%d): %s' % (query, count, total_counts.loc[query],
+                                        taxonomy.loc[query].Lineage))
 
     print("\nSubsequent summaries based off of only those which recruit.")
     results = results[results['subject'] != '*']
