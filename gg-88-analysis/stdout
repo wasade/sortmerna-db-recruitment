@@ -1,149 +1,200 @@
 TRIM LENGTH 100
-Total queries run: 103730
-Total not hitting: 39
-Fraction not hitting: 0.0004
+Total queries run: 37523
+Total not hitting: 49
+Fraction not hitting: 0.0013
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    103691.000000
-mean         98.369905
-std           3.866434
-min          73.500000
-25%         100.000000
-50%         100.000000
-75%         100.000000
-max         100.000000
+count    37474.000000
+mean        95.467599
+std          5.330528
+min         73.500000
+25%         91.500000
+50%         98.000000
+75%        100.000000
+max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count    1.036910e+05
-mean     7.321656e-05
-std      6.476664e-03
-min      1.640000e-40
-25%      1.690000e-40
-50%      1.850000e-40
-75%      1.930000e-40
-max      9.910000e-01
+count    3.747400e+04
+mean     1.002243e-04
+std      5.910291e-03
+min      5.820000e-41
+25%      6.500000e-41
+50%      2.770000e-38
+75%      4.040000e-28
+max      6.540000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    103691.000000
-mean        166.608471
-std          19.744588
-min          43.000000
-25%         175.000000
-50%         175.000000
-75%         175.000000
-max         175.000000
+count    37474.000000
+mean       152.023883
+std         27.307491
+min         42.000000
+25%        132.000000
+50%        166.000000
+75%        175.000000
+max        175.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    103691.000000
-mean         99.236752
-std           3.834702
-min          25.000000
-25%         100.000000
-50%         100.000000
-75%         100.000000
-max         100.000000
+count    37474.000000
+mean        97.894220
+std          6.072457
+min         24.000000
+25%         99.000000
+50%        100.000000
+75%        100.000000
+max        100.000000
 Name: coverage, dtype: float64
 
 ******************************
 TRIM LENGTH 150
-Total queries run: 103730
-Total not hitting: 22
-Fraction not hitting: 0.0002
+Total queries run: 37523
+Total not hitting: 26
+Fraction not hitting: 0.0007
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    103708.000000
-mean         97.815640
-std           5.076966
-min          69.100000
-25%         100.000000
-50%         100.000000
-75%         100.000000
-max         100.000000
+count    37497.000000
+mean        93.914340
+std          6.956275
+min         69.100000
+25%         88.300000
+50%         97.300000
+75%        100.000000
+max        100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count    1.037080e+05
-mean     5.387147e-05
-std      4.806058e-03
-min      1.780000e-66
-25%      1.860000e-66
-50%      2.130000e-66
-75%      2.260000e-66
-max      4.800000e-01
+count    3.749700e+04
+mean     7.874847e-05
+std      6.037040e-03
+min      6.280000e-67
+25%      7.320000e-67
+50%      2.330000e-60
+75%      7.870000e-43
+max      5.700000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    103708.000000
-mean        246.347929
-std          36.041388
-min          45.000000
-25%         262.000000
-50%         262.000000
-75%         262.000000
-max         262.000000
+count    37497.000000
+mean       219.193642
+std         49.331513
+min         43.000000
+25%        182.000000
+50%        240.000000
+75%        262.000000
+max        262.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    103708.000000
-mean         99.545833
-std           3.684717
-min          16.700000
-25%         100.000000
-50%         100.000000
-75%         100.000000
-max         100.000000
+count    37497.000000
+mean        98.845812
+std          5.567366
+min         16.000000
+25%        100.000000
+50%        100.000000
+75%        100.000000
+max        100.000000
 Name: coverage, dtype: float64
 
 ******************************
 TRIM LENGTH 250
-Total queries run: 103730
-Total not hitting: 6
-Fraction not hitting: 0.0001
+Total queries run: 37523
+Total not hitting: 11
+Fraction not hitting: 0.0003
 
 Subsequent summaries based off of only those which recruit.
 Category: %id
-count    103724.000000
-mean         98.016209
-std           4.558808
+count    37512.000000
+mean        94.496401
+std          6.202698
+min         65.600000
+25%         89.600000
+50%         96.800000
+75%        100.000000
+max        100.000000
+Name: %id, dtype: float64
+
+Category: e-value
+count     3.751200e+04
+mean      8.851345e-05
+std       8.872367e-03
+min      5.080000e-119
+25%      6.420000e-119
+50%      6.160000e-108
+75%       1.180000e-83
+max       9.880000e-01
+Name: e-value, dtype: float64
+
+Category: bit-score
+count    37512.000000
+mean       372.896726
+std         70.598404
+min         43.000000
+25%        318.000000
+50%        399.000000
+75%        435.000000
+max        436.000000
+Name: bit-score, dtype: float64
+
+Category: coverage
+count    37512.000000
+mean        99.655161
+std          3.009703
+min         11.600000
+25%        100.000000
+50%        100.000000
+75%        100.000000
+max        100.000000
+Name: coverage, dtype: float64
+
+******************************
+ALL
+Total queries run: 112569
+Total not hitting: 86
+Fraction not hitting: 0.0008
+
+Subsequent summaries based off of only those which recruit.
+Category: %id
+count    112483.000000
+mean         94.625924
+std           6.231990
 min          65.600000
-25%         100.000000
-50%         100.000000
+25%          89.900000
+50%          97.300000
 75%         100.000000
 max         100.000000
 Name: %id, dtype: float64
 
 Category: e-value
-count     1.037240e+05
-mean      1.268589e-05
-std       2.095642e-03
-min      1.440000e-118
-25%      1.540000e-118
-50%      1.940000e-118
-75%      4.810000e-118
-max       4.510000e-01
+count     1.124830e+05
+mean      8.915972e-05
+std       7.073768e-03
+min      5.080000e-119
+25%       1.180000e-83
+50%       5.630000e-57
+75%       3.090000e-40
+max       9.880000e-01
 Name: e-value, dtype: float64
 
 Category: bit-score
-count    103724.000000
-mean        412.183256
-std          52.073061
-min          45.000000
-25%         434.000000
-50%         435.000000
-75%         436.000000
+count    112483.000000
+mean        248.074367
+std         106.157811
+min          42.000000
+25%         173.000000
+50%         229.000000
+75%         318.000000
 max         436.000000
 Name: bit-score, dtype: float64
 
 Category: coverage
-count    103724.000000
-mean         99.852160
-std           2.235623
-min          14.000000
+count    112483.000000
+mean         98.798697
+std           5.114276
+min          11.600000
 25%         100.000000
 50%         100.000000
 75%         100.000000

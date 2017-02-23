@@ -19,3 +19,5 @@ echo "******************************"
 echo "TRIM LENGTH 250"
 python summarize.py --trim 250
 echo "******************************"
+echo "ALL"
+python summarize.py
